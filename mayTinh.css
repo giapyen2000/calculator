@@ -1,0 +1,112 @@
+#calculator {
+    width: 320px;
+    height: 550px;
+    background-color: #eaedef;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(14, 13, 13, 0.2);
+    border: 6px solid black;
+}
+
+#result {
+    height: 120px;
+    padding: 9px 9px 9px 9px;
+    border: 6px solid black;
+    border-bottom: 12px solid black;
+}
+
+#oldValue {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.system,
+.number,
+.trong {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.number,
+.trong {
+    background-color: #eaedef;
+}
+
+.system,
+.number {
+    cursor: pointer;
+}
+
+.system:active,
+.number:active {
+    font-size: 14px;
+}
+
+.system:focus,
+.number:focus,
+.trong:focus {
+    outline: 1;
+}
+
+.one {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+.two {
+    font-size: 20px;
+    background-color: #20b238;
+}
+
+.three {
+    font-size: 20px;
+    background-color: #251dbf;
+}
+
+.four {
+    font-size: 20px;
+    background-color: #92b220;
+}
+
+.five {
+    font-size: 20px;
+    background-color: #b220ad;
+}
+
+.six {
+    font-size: 20px;
+    background-color: #b26b20;
+}
+
+.seven {
+    font-size: 20px;
+    background-color: #b22020;
+}
+
+.eight {
+    font-size: 20px;
+    background-color: #270202;
+}
